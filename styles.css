@@ -1,0 +1,56 @@
+body {
+  font-family: arial;
+  background: #e0e0e0;
+}
+#mainstopwatch {
+  width: 300px;
+  margin: 100px auto;
+  padding: 60px 50px 100px;
+  text-align: center;
+  font-size: 40px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #afafaf, -15px -15px 30px #ffffff;
+  border-radius: 38px;
+  background: #e0e0e0;
+  box-shadow: 6px -6px 8px #9d9d9d, -6px 6px 8px #ffffff;
+}
+#mainstopwatch span {
+  background: #c7e0f8;
+  color: #0776de;
+  padding: 10px;
+  width: 55px;
+  border-radius: 5px;
+  margin: 3px;
+  display: inline-block;
+  border-radius: 38px;
+  background: #e0e0e0;
+  box-shadow: 6px -6px 8px #9d9d9d, -6px 6px 8px #ffffff;
+}
+#mainstopwatch button {
+  font-size: 22px;
+  -webkit-appearance: none;
+  border: none;
+  background-color: #2e80b3;
+  color: white;
+  width: 140px;
+  height: 55px;
+  transition: 0.3s;
+  border-radius: 33px;
+  box-shadow: 6px -6px 8px #9d9d9d, -6px 6px 8px #e0e0e0;
+}
+#mainstopwatch button:last-child {
+  background-color: #ae7617;
+}
+#mainstopwatch button:hover {
+  background: #333;
+  color: #e0e0e0;
+  border-radius: 38px;
+  box-shadow: 6px -6px 8px #9d9d9d, -6px 6px 8px #ffffff;
+}
+#reset {
+  margin-top: 20px;
+}
+footer {
+  color: #0776de;
+  font-family: Arial, Helvetica, sans-serif;
+}
